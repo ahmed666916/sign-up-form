@@ -45,3 +45,12 @@ button {
     width: 50%;
   }
   
+  .login-link {
+    cursor: pointer;
+    color: blue; /* You can change the color as per your preference */
+    text-decoration: underline; /* Adding underline to indicate it's clickable */
+  }
+
+  .login-link:hover {
+    color: darkblue; /* Change color on hover if desired */
+  }
