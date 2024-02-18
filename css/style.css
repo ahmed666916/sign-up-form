@@ -4,17 +4,17 @@
 
 .container{
     background-image: url("../images/background.jpg");
-    background-size: 50% auto; /* Set the background size to cover 50% of the container's width */
-    background-position: left top; /* Align the background to the left */
-    float: left; /* Move the container to the left */
-    width: 50%; /* Set the width of the container */
-    height: 100vh; /* Adjust the height as needed */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    width: 100vw; /* Make the container span the full viewport width */
+    height: 100vh; /* Make the container span the full viewport height */
 }
 .form-container{
     padding: 16px;
     float: right; /* Move the container to the right */
     width: 50%; /* Set the width of the container */
     height: 100vh; /* Adjust the height as needed */
+    background-color: #ffffff;
 
 }
 
