@@ -43,7 +43,7 @@ button {
     opacity:1;
   }
 
-  .signupbtn {
+  .clearfix {
     float: left;
     width: 50%;
   }
